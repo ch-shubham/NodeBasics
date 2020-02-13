@@ -6,7 +6,7 @@
 const square = require('./square');
 
 console.log(__filename);
-console.log(__dirname);
+console.log(__dirname); 	
 
 const calsquare = (a) => {
 	console.log(`the value of a is ${a} and its area is ` + square.area(a));
